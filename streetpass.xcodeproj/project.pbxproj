@@ -11,6 +11,29 @@
 		9100564C2A8FBBDA0063470A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100564B2A8FBBDA0063470A /* ContentView.swift */; };
 		9100564E2A8FBBDB0063470A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9100564D2A8FBBDB0063470A /* Assets.xcassets */; };
 		910056512A8FBBDB0063470A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910056502A8FBBDB0063470A /* Preview Assets.xcassets */; };
+		910056582A8FBC3A0063470A /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056572A8FBC3A0063470A /* PeripheralManager.swift */; };
+		9100565B2A8FC3470063470A /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100565A2A8FC3470063470A /* CentralManager.swift */; };
+		910056702A9504710063470A /* Gontserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100565D2A95046F0063470A /* Gontserrat-ExtraBold.ttf */; };
+		910056712A9504710063470A /* Gontserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100565E2A9504700063470A /* Gontserrat-ExtraLightItalic.ttf */; };
+		910056722A9504710063470A /* Gontserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100565F2A9504700063470A /* Gontserrat-BlackItalic.ttf */; };
+		910056732A9504710063470A /* Gontserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056602A9504700063470A /* Gontserrat-Italic.ttf */; };
+		910056742A9504710063470A /* Gontserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056612A9504700063470A /* Gontserrat-ExtraLight.ttf */; };
+		910056752A9504710063470A /* Gontserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056622A9504700063470A /* Gontserrat-Black.ttf */; };
+		910056762A9504710063470A /* Gontserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056632A9504700063470A /* Gontserrat-Light.ttf */; };
+		910056772A9504710063470A /* Gontserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056642A9504700063470A /* Gontserrat-ExtraBoldItalic.ttf */; };
+		910056782A9504710063470A /* Gontserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056652A9504700063470A /* Gontserrat-ThinItalic.ttf */; };
+		910056792A9504710063470A /* Gontserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056662A9504700063470A /* Gontserrat-Medium.ttf */; };
+		9100567A2A9504710063470A /* Gontserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056672A9504700063470A /* Gontserrat-Bold.ttf */; };
+		9100567B2A9504710063470A /* Gontserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056682A9504700063470A /* Gontserrat-SemiBoldItalic.ttf */; };
+		9100567C2A9504710063470A /* Gontserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910056692A9504700063470A /* Gontserrat-Regular.ttf */; };
+		9100567D2A9504710063470A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9100566A2A9504700063470A /* OFL.txt */; };
+		9100567E2A9504710063470A /* Gontserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566B2A9504710063470A /* Gontserrat-LightItalic.ttf */; };
+		9100567F2A9504710063470A /* Gontserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566C2A9504710063470A /* Gontserrat-BoldItalic.ttf */; };
+		910056802A9504710063470A /* Gontserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566D2A9504710063470A /* Gontserrat-MediumItalic.ttf */; };
+		910056812A9504710063470A /* Gontserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566E2A9504710063470A /* Gontserrat-SemiBold.ttf */; };
+		910056822A9504710063470A /* Gontserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566F2A9504710063470A /* Gontserrat-Thin.ttf */; };
+		910056852A9504BD0063470A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056842A9504BD0063470A /* Font.swift */; };
+		9100568A2A9509A20063470A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056892A9509A20063470A /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,30 @@
 		9100564B2A8FBBDA0063470A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9100564D2A8FBBDB0063470A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910056502A8FBBDB0063470A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		910056572A8FBC3A0063470A /* PeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
+		910056592A8FBFB30063470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9100565A2A8FC3470063470A /* CentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManager.swift; sourceTree = "<group>"; };
+		9100565D2A95046F0063470A /* Gontserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9100565E2A9504700063470A /* Gontserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		9100565F2A9504700063470A /* Gontserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		910056602A9504700063470A /* Gontserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Italic.ttf"; sourceTree = "<group>"; };
+		910056612A9504700063470A /* Gontserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		910056622A9504700063470A /* Gontserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Black.ttf"; sourceTree = "<group>"; };
+		910056632A9504700063470A /* Gontserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Light.ttf"; sourceTree = "<group>"; };
+		910056642A9504700063470A /* Gontserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		910056652A9504700063470A /* Gontserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		910056662A9504700063470A /* Gontserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Medium.ttf"; sourceTree = "<group>"; };
+		910056672A9504700063470A /* Gontserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Bold.ttf"; sourceTree = "<group>"; };
+		910056682A9504700063470A /* Gontserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		910056692A9504700063470A /* Gontserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9100566A2A9504700063470A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		9100566B2A9504710063470A /* Gontserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		9100566C2A9504710063470A /* Gontserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9100566D2A9504710063470A /* Gontserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9100566E2A9504710063470A /* Gontserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		9100566F2A9504710063470A /* Gontserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Thin.ttf"; sourceTree = "<group>"; };
+		910056842A9504BD0063470A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		910056892A9509A20063470A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +98,16 @@
 		910056482A8FBBDA0063470A /* streetpass */ = {
 			isa = PBXGroup;
 			children = (
+				910056862A95067D0063470A /* Components */,
+				910056832A9504950063470A /* Extensions */,
+				9100565C2A9504570063470A /* Fonts */,
+				910056592A8FBFB30063470A /* Info.plist */,
 				910056492A8FBBDA0063470A /* streetpassApp.swift */,
 				9100564B2A8FBBDA0063470A /* ContentView.swift */,
 				9100564D2A8FBBDB0063470A /* Assets.xcassets */,
 				9100564F2A8FBBDB0063470A /* Preview Content */,
+				910056572A8FBC3A0063470A /* PeripheralManager.swift */,
+				9100565A2A8FC3470063470A /* CentralManager.swift */,
 			);
 			path = streetpass;
 			sourceTree = "<group>";
@@ -65,6 +118,48 @@
 				910056502A8FBBDB0063470A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9100565C2A9504570063470A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				910056622A9504700063470A /* Gontserrat-Black.ttf */,
+				9100565F2A9504700063470A /* Gontserrat-BlackItalic.ttf */,
+				910056672A9504700063470A /* Gontserrat-Bold.ttf */,
+				9100566C2A9504710063470A /* Gontserrat-BoldItalic.ttf */,
+				9100565D2A95046F0063470A /* Gontserrat-ExtraBold.ttf */,
+				910056642A9504700063470A /* Gontserrat-ExtraBoldItalic.ttf */,
+				910056612A9504700063470A /* Gontserrat-ExtraLight.ttf */,
+				9100565E2A9504700063470A /* Gontserrat-ExtraLightItalic.ttf */,
+				910056602A9504700063470A /* Gontserrat-Italic.ttf */,
+				910056632A9504700063470A /* Gontserrat-Light.ttf */,
+				9100566B2A9504710063470A /* Gontserrat-LightItalic.ttf */,
+				910056662A9504700063470A /* Gontserrat-Medium.ttf */,
+				9100566D2A9504710063470A /* Gontserrat-MediumItalic.ttf */,
+				910056692A9504700063470A /* Gontserrat-Regular.ttf */,
+				9100566E2A9504710063470A /* Gontserrat-SemiBold.ttf */,
+				910056682A9504700063470A /* Gontserrat-SemiBoldItalic.ttf */,
+				9100566F2A9504710063470A /* Gontserrat-Thin.ttf */,
+				910056652A9504700063470A /* Gontserrat-ThinItalic.ttf */,
+				9100566A2A9504700063470A /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		910056832A9504950063470A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				910056842A9504BD0063470A /* Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		910056862A95067D0063470A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				910056892A9509A20063470A /* ActionButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +220,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9100567B2A9504710063470A /* Gontserrat-SemiBoldItalic.ttf in Resources */,
+				910056702A9504710063470A /* Gontserrat-ExtraBold.ttf in Resources */,
+				910056742A9504710063470A /* Gontserrat-ExtraLight.ttf in Resources */,
+				910056722A9504710063470A /* Gontserrat-BlackItalic.ttf in Resources */,
+				910056812A9504710063470A /* Gontserrat-SemiBold.ttf in Resources */,
+				910056752A9504710063470A /* Gontserrat-Black.ttf in Resources */,
+				910056792A9504710063470A /* Gontserrat-Medium.ttf in Resources */,
+				9100567D2A9504710063470A /* OFL.txt in Resources */,
+				910056802A9504710063470A /* Gontserrat-MediumItalic.ttf in Resources */,
+				9100567C2A9504710063470A /* Gontserrat-Regular.ttf in Resources */,
+				9100567F2A9504710063470A /* Gontserrat-BoldItalic.ttf in Resources */,
+				9100567E2A9504710063470A /* Gontserrat-LightItalic.ttf in Resources */,
 				910056512A8FBBDB0063470A /* Preview Assets.xcassets in Resources */,
+				910056732A9504710063470A /* Gontserrat-Italic.ttf in Resources */,
+				910056782A9504710063470A /* Gontserrat-ThinItalic.ttf in Resources */,
+				9100567A2A9504710063470A /* Gontserrat-Bold.ttf in Resources */,
+				910056762A9504710063470A /* Gontserrat-Light.ttf in Resources */,
+				910056822A9504710063470A /* Gontserrat-Thin.ttf in Resources */,
+				910056772A9504710063470A /* Gontserrat-ExtraBoldItalic.ttf in Resources */,
 				9100564E2A8FBBDB0063470A /* Assets.xcassets in Resources */,
+				910056712A9504710063470A /* Gontserrat-ExtraLightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +253,10 @@
 			files = (
 				9100564C2A8FBBDA0063470A /* ContentView.swift in Sources */,
 				9100564A2A8FBBDA0063470A /* streetpassApp.swift in Sources */,
+				910056852A9504BD0063470A /* Font.swift in Sources */,
+				910056582A8FBC3A0063470A /* PeripheralManager.swift in Sources */,
+				9100565B2A8FC3470063470A /* CentralManager.swift in Sources */,
+				9100568A2A9509A20063470A /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +388,8 @@
 				DEVELOPMENT_TEAM = 5RF7XV65SP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = streetpass/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Required;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +419,8 @@
 				DEVELOPMENT_TEAM = 5RF7XV65SP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = streetpass/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Required;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

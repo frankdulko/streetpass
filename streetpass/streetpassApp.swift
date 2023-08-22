@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct streetpassApp: App {
+    
+    @StateObject var peripheralManager = PeripheralManager();
+    @StateObject var centralManager = CentralManager();
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(centralManager)
         }
     }
 }
