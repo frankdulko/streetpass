@@ -35,6 +35,7 @@
 		910056852A9504BD0063470A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056842A9504BD0063470A /* Font.swift */; };
 		9100568A2A9509A20063470A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056892A9509A20063470A /* ActionButton.swift */; };
 		9100568C2A9519B40063470A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100568B2A9519B40063470A /* Person.swift */; };
+		91A69C7C2AA0D1EB0010B0A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		910056842A9504BD0063470A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		910056892A9509A20063470A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		9100568B2A9519B40063470A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		910056482A8FBBDA0063470A /* streetpass */ = {
 			isa = PBXGroup;
 			children = (
+				91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */,
 				910056862A95067D0063470A /* Components */,
 				910056832A9504950063470A /* Extensions */,
 				9100565C2A9504570063470A /* Fonts */,
@@ -229,6 +232,7 @@
 				910056722A9504710063470A /* Gontserrat-BlackItalic.ttf in Resources */,
 				910056812A9504710063470A /* Gontserrat-SemiBold.ttf in Resources */,
 				910056752A9504710063470A /* Gontserrat-Black.ttf in Resources */,
+				91A69C7C2AA0D1EB0010B0A2 /* GoogleService-Info.plist in Resources */,
 				910056792A9504710063470A /* Gontserrat-Medium.ttf in Resources */,
 				9100567D2A9504710063470A /* OFL.txt in Resources */,
 				910056802A9504710063470A /* Gontserrat-MediumItalic.ttf in Resources */,
