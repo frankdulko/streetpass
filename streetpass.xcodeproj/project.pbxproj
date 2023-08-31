@@ -34,6 +34,7 @@
 		910056822A9504710063470A /* Gontserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9100566F2A9504710063470A /* Gontserrat-Thin.ttf */; };
 		910056852A9504BD0063470A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056842A9504BD0063470A /* Font.swift */; };
 		9100568A2A9509A20063470A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056892A9509A20063470A /* ActionButton.swift */; };
+		9100568C2A9519B40063470A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100568B2A9519B40063470A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		9100566F2A9504710063470A /* Gontserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gontserrat-Thin.ttf"; sourceTree = "<group>"; };
 		910056842A9504BD0063470A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		910056892A9509A20063470A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		9100568B2A9519B40063470A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9100564F2A8FBBDB0063470A /* Preview Content */,
 				910056572A8FBC3A0063470A /* PeripheralManager.swift */,
 				9100565A2A8FC3470063470A /* CentralManager.swift */,
+				9100568B2A9519B40063470A /* Person.swift */,
 			);
 			path = streetpass;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				9100564A2A8FBBDA0063470A /* streetpassApp.swift in Sources */,
 				910056852A9504BD0063470A /* Font.swift in Sources */,
 				910056582A8FBC3A0063470A /* PeripheralManager.swift in Sources */,
+				9100568C2A9519B40063470A /* Person.swift in Sources */,
 				9100565B2A8FC3470063470A /* CentralManager.swift in Sources */,
 				9100568A2A9509A20063470A /* ActionButton.swift in Sources */,
 			);

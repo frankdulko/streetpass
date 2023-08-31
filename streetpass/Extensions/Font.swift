@@ -67,4 +67,16 @@ extension Font {
     public static var xxlRegular: Font {
         return Font.custom("Gontserrat-Regular", size: .xxlarge)
     }
+    
+    public static var mBold: Font {
+        return Font.custom("Gontserrat-Bold", size: .medium)
+    }
+    
+    public static var lBold: Font {
+        return Font.custom("Gontserrat-Bold", size: .large)
+    }
+    
+    public static var xlBold: Font {
+        return Font.custom("Gontserrat-Bold", size: .xlarge)
+    }
 }
