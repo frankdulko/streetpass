@@ -26,6 +26,7 @@ struct ActionButton: View {
     var size : ButtonSize
     var type : ButtonType
     var action : () -> Void
+    var isDisabed : Bool = false
     
     var body: some View {
         Button(action: action) {
@@ -33,15 +34,17 @@ struct ActionButton: View {
                 .padding(10)
                 .font(getFont())
                 .foregroundColor(type == .filled ? .white : .blue)
-                .background(getBackground()).cornerRadius(10)
+                .background(getBackground()).cornerRadius(5)
+                .opacity(isDisabed ? 0.5 : 1)
         }
+        .disabled(isDisabed)
     }
     
     func getFont() -> Font{
         switch(size){
-            case .small: return .sRegular
-            case .medium: return .mRegular
-            case .large: return .lRegular
+            case .small: return .sBold
+            case .medium: return .mBold
+            case .large: return .lBold
         }
     }
     func getBackground() -> Color{

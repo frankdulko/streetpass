@@ -35,7 +35,15 @@ extension CGFloat {
     }
     
     public static var xxlarge: CGFloat {
-        return 72
+        return 48
+    }
+    
+    public static var SCREEN_WIDTH: CGFloat {
+        return UIScreen.main.bounds.width
+    }
+    
+    public static var SCREEN_HEIGHT: CGFloat {
+        return UIScreen.main.bounds.height
     }
 }
 
@@ -68,6 +76,10 @@ extension Font {
         return Font.custom("Gontserrat-Regular", size: .xxlarge)
     }
     
+    public static var sBold: Font {
+        return Font.custom("Gontserrat-Bold", size: .small)
+    }
+    
     public static var mBold: Font {
         return Font.custom("Gontserrat-Bold", size: .medium)
     }
@@ -78,5 +90,13 @@ extension Font {
     
     public static var xlBold: Font {
         return Font.custom("Gontserrat-Bold", size: .xlarge)
+    }
+    
+    public static var xlBlack: Font {
+        return Font.custom("Gontserrat-Black", size: .xlarge)
+    }
+    
+    public static var xxlBlack: Font {
+        return Font.custom("Gontserrat-Black", size: .xxlarge)
     }
 }

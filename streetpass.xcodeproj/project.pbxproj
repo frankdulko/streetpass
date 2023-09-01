@@ -37,6 +37,14 @@
 		9100568A2A9509A20063470A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910056892A9509A20063470A /* ActionButton.swift */; };
 		9100568C2A9519B40063470A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100568B2A9519B40063470A /* Person.swift */; };
 		91A69C7C2AA0D1EB0010B0A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */; };
+		91DE328E2AA0E672003874D2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE328D2AA0E672003874D2 /* LoginModel.swift */; };
+		91DE32912AA0E845003874D2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE32902AA0E845003874D2 /* LoginView.swift */; };
+		91DE32932AA0E85A003874D2 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE32922AA0E85A003874D2 /* VerifyView.swift */; };
+		91DE32952AA0E956003874D2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE32942AA0E956003874D2 /* String.swift */; };
+		91DE32972AA0EBDF003874D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE32962AA0EBDF003874D2 /* HomeView.swift */; };
+		91DE329B2AA0F343003874D2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE329A2AA0F343003874D2 /* TextView.swift */; };
+		91DE329D2AA0F659003874D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE329C2AA0F659003874D2 /* Constants.swift */; };
+		91DE32A12AA0FFE2003874D2 /* MemojiViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE32A02AA0FFE2003874D2 /* MemojiViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +80,15 @@
 		910056892A9509A20063470A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		9100568B2A9519B40063470A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91DE328B2AA0E1A0003874D2 /* streetpass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = streetpass.entitlements; sourceTree = "<group>"; };
+		91DE328D2AA0E672003874D2 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		91DE32902AA0E845003874D2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		91DE32922AA0E85A003874D2 /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		91DE32942AA0E956003874D2 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		91DE32962AA0EBDF003874D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91DE329A2AA0F343003874D2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		91DE329C2AA0F659003874D2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91DE32A02AA0FFE2003874D2 /* MemojiViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiViewManager.swift; sourceTree = "<group>"; };
 		C50D1197C5660913DE68F1C3 /* Pods-streetpass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streetpass.release.xcconfig"; path = "Target Support Files/Pods-streetpass/Pods-streetpass.release.xcconfig"; sourceTree = "<group>"; };
 		F9C379C3DC7CDE00BA645C64 /* Pods_streetpass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streetpass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +111,6 @@
 				3C7A4C02AD611F9AC79D9F0C /* Pods-streetpass.debug.xcconfig */,
 				C50D1197C5660913DE68F1C3 /* Pods-streetpass.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +135,9 @@
 		910056482A8FBBDA0063470A /* streetpass */ = {
 			isa = PBXGroup;
 			children = (
+				91DE328F2AA0E81F003874D2 /* Screens */,
+				91DE328C2AA0E65D003874D2 /* Resources */,
+				91DE328B2AA0E1A0003874D2 /* streetpass.entitlements */,
 				91A69C7B2AA0D1EA0010B0A2 /* GoogleService-Info.plist */,
 				910056862A95067D0063470A /* Components */,
 				910056832A9504950063470A /* Extensions */,
@@ -173,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				910056842A9504BD0063470A /* Font.swift */,
+				91DE32942AA0E956003874D2 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -181,8 +201,29 @@
 			isa = PBXGroup;
 			children = (
 				910056892A9509A20063470A /* ActionButton.swift */,
+				91DE329A2AA0F343003874D2 /* TextView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		91DE328C2AA0E65D003874D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91DE328D2AA0E672003874D2 /* LoginModel.swift */,
+				91DE329C2AA0F659003874D2 /* Constants.swift */,
+				91DE32A02AA0FFE2003874D2 /* MemojiViewManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91DE328F2AA0E81F003874D2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				91DE32902AA0E845003874D2 /* LoginView.swift */,
+				91DE32922AA0E85A003874D2 /* VerifyView.swift */,
+				91DE32962AA0EBDF003874D2 /* HomeView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		F70D9B65762277F69EC6FE9C /* Frameworks */ = {
@@ -328,12 +369,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9100564C2A8FBBDA0063470A /* ContentView.swift in Sources */,
+				91DE32952AA0E956003874D2 /* String.swift in Sources */,
+				91DE32932AA0E85A003874D2 /* VerifyView.swift in Sources */,
+				91DE329B2AA0F343003874D2 /* TextView.swift in Sources */,
 				9100564A2A8FBBDA0063470A /* streetpassApp.swift in Sources */,
 				910056852A9504BD0063470A /* Font.swift in Sources */,
+				91DE32912AA0E845003874D2 /* LoginView.swift in Sources */,
 				910056582A8FBC3A0063470A /* PeripheralManager.swift in Sources */,
 				9100568C2A9519B40063470A /* Person.swift in Sources */,
+				91DE328E2AA0E672003874D2 /* LoginModel.swift in Sources */,
+				91DE32972AA0EBDF003874D2 /* HomeView.swift in Sources */,
+				91DE329D2AA0F659003874D2 /* Constants.swift in Sources */,
 				9100565B2A8FC3470063470A /* CentralManager.swift in Sources */,
 				9100568A2A9509A20063470A /* ActionButton.swift in Sources */,
+				91DE32A12AA0FFE2003874D2 /* MemojiViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = streetpass/streetpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"streetpass/Preview Content\"";
@@ -493,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = streetpass/streetpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"streetpass/Preview Content\"";
